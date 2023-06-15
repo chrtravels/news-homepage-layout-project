@@ -1,0 +1,169 @@
+html * {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: hsl(240, 100%, 5%);
+}
+
+h1 {
+  font-size: 3.3rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(36, 100%, 99%);
+  margin: 5rem 10rem 0rem 10rem;
+  position: relative;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+}
+
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  color: hsl(236, 13%, 42%);
+  padding-left: 2rem;
+}
+
+.hero {
+  display: flex;
+  gap: 2.7%;
+}
+
+.span-3 {
+  flex-basis: 70.6%;
+}
+
+.hero-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-content {
+  display: flex;
+  position: relative;
+  margin-top: 1.5rem;
+  /* flex-basis: 50%; */
+  gap: 10%
+}
+
+.hero-title {
+  flex-basis: 40%;
+}
+
+.hero-description {
+  flex-basis: 50%;
+}
+
+.hero-description p {
+  font-weight: 400;
+  color: hsl(236, 13%, 42%);
+}
+
+.hero-button {
+  position: absolute;
+  bottom: 0;
+  color: hsl(36, 100%, 99%);
+  font-weight: 400;
+  letter-spacing: .3rem;
+  background-color: hsl(5, 85%, 63%);
+  border: none;
+  padding: .9rem 1.7rem;
+}
+
+.sidebar {
+  background-color: hsl(240, 100%, 5%);
+  padding: 1.5rem;
+  color: hsl(233, 8%, 79%);
+  font-weight: 400;
+  flex-basis: 27%;
+}
+
+h2 {
+  color: hsl(35, 77%, 62%);
+  margin: 0 0 2rem 0;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.sidebar h3 {
+  color: hsl(36, 100%, 99%);
+  font-size: 1.2rem;
+}
+
+hr {
+  margin: 2rem 0 2rem 0;
+  background-color: hsl(236, 13%, 42%);
+  border: none;
+  height: 1px;
+}
+
+.article-list {
+  display: flex;
+  flex-flow: row-wrap;
+  margin-top: 4rem;
+  flex-basis: 32%;
+  gap: 2%;
+}
+
+.article-tiles {
+  display: flex;
+  height: 9rem;
+}
+
+/* .article-tiles:not(:last-child) {
+  margin-right: 1rem;
+} */
+
+.tile-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 1.4rem;
+}
+
+.article-num {
+  color: hsl(233, 8%, 79%);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.article-details h3 {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.article-details h3 {
+  margin: .7rem 0;
+}
+
+.article-details p {
+  color: hsl(236, 13%, 42%);
+  line-height: 1.5rem;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media (min-width: 375px) {
+
+}
