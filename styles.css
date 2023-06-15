@@ -86,12 +86,23 @@ nav li {
   padding: .9rem 1.7rem;
 }
 
+.hero-button:hover {
+  color: hsl(36, 100%, 99%);
+  background-color: black;
+  cursor: pointer;
+}
+
 .sidebar {
   background-color: hsl(240, 100%, 5%);
   padding: 1.5rem;
   color: hsl(233, 8%, 79%);
   font-weight: 400;
   flex-basis: 27%;
+}
+
+.sidebar h3:hover {
+  color: hsl(35, 77%, 62%);
+  cursor: pointer;
 }
 
 h2 {
@@ -117,18 +128,16 @@ hr {
   display: flex;
   flex-flow: row-wrap;
   margin-top: 4rem;
-  flex-basis: 32%;
+
   gap: 2%;
 }
 
 .article-tiles {
   display: flex;
   height: 9rem;
+  flex-basis: 32%;
 }
 
-/* .article-tiles:not(:last-child) {
-  margin-right: 1rem;
-} */
 
 .tile-content {
   display: flex;
@@ -146,10 +155,12 @@ hr {
 .article-details h3 {
   font-size: 1.1rem;
   font-weight: 800;
+  margin: .7rem 0;
 }
 
-.article-details h3 {
-  margin: .7rem 0;
+.article-details h3:hover {
+  color:  hsl(5, 85%, 63%);
+  cursor: pointer;
 }
 
 .article-details p {
