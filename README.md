@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github]([https://your-solution-url.com)](https://github.com/chrtravels/news-homepage-layout-project)
-- Live Site URL: [Github Page](https://your-live-site-url.com)
+- Live Site URL: [Github Page](https://chrtravels.github.io/news-homepage-layout-project/)
 
 ## My process
 
